@@ -1,7 +1,7 @@
-BOT_NAME = "RPA_LAB_01"
+BOT_NAME = "RPA_FINANCEIRO_01"
 MAX_RETRIES = 3
-EXECUTION_TIMEOUT = 50.5
-IS_PRODUCTION = True
+EXECUTION_TIMEOUT = 30.0
+IS_PRODUCTION = False
 
 print('-------------------Inicializando-----------------')
 print(f'Nome do Bot: {BOT_NAME} - Tipo: {type(BOT_NAME)}')
